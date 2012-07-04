@@ -70,7 +70,7 @@ done
 # print results
 echo
 if [ $SUCCESS_COUNT -eq $TOTAL_COUNT ]; then
-	echo "$TOTAL_COUNT config checked, all properly linked"
+	echo "$TOTAL_COUNT checked, all properly linked"
 else
-	echo "$TOTAL_COUNT config checked, $SUCCESS_COUNT already good, $ERROR_COUNT fixed"
+	echo "$TOTAL_COUNT checked, $SUCCESS_COUNT already good, $ERROR_COUNT fixed"
 fi
